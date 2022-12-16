@@ -9,13 +9,25 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "expo": "~47.0.8",
+    "@react-navigation/native": "^6.0.16",
+    "@react-navigation/native-stack": "^6.9.4",
+    "axios": "^1.2.1",
+    "eas-cli": "^3.0.0",
+    "expo": "^47.0.0",
+    "expo-device": "^5.0.0",
+    "expo-notifications": "^0.17.0",
     "expo-status-bar": "~1.4.2",
+    "link": "^1.5.1",
     "react": "18.1.0",
-    "react-native": "0.70.5"
+    "react-native": "^0.70.5",
+    "react-native-ionicons": "^4.6.5",
+    "react-native-paper": "^5.0.0",
+    "react-native-vector-icons": "^9.2.0",
+    "react-redux": "^8.0.5",
+    "redux": "^4.2.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.9"
+    "@babel/core": "^7.19.3"
   },
   "private": true
 }

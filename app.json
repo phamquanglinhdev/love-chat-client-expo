@@ -1,13 +1,13 @@
 {
   "expo": {
     "name": "love-chat",
-    "slug": "love-chat",
+    "slug": "chat-love",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/welcomes.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -28,6 +28,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f05c37fc-d5dc-4618-9530-8c0f00d60ba9"
+      }
+    },
+    "owner": "linhcuenini"
   }
 }
